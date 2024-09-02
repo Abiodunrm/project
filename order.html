@@ -1,0 +1,314 @@
+<!doctype html>
+ <html lang="en">
+     <!-- Opening tag -->
+    <head>
+       <title>Abbey Gifts Store</title>
+       <meta name="description" content="This site showcase different designs of gify cards available in abbeyStore">
+       
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         
+          <meta charset="UTF-8">
+       
+       <meta name="keywords" content="Gift items, cards, occassion, lagos,Ogun">
+       <meta name="author" content="Abiodun Rotimi">
+       <link rel="stylesheet" href="giftstores2.css">
+       <link rel="icon" type="image/-icon" href="images/LOGOMINE3.png">
+      
+     </head>
+ <body>
+  <div class="cointainer">
+    <div class="item1"> <img src="images/logo2 copy.png"  width="140px" height="140px"/></div>
+    <div class="item2"><img src="images/name3.png" width="1300px" height="150px"></div>
+ </div>
+    
+     
+     <div class="contact">
+   <div class="item3"> <img src="images/facebook.png" width="50px" height="50px" />
+         <img src="images/instagram.png"  width="50px" height="50px" />
+         <img src="images/twitter.png" width="50px" height="50px"  /> </div>
+ 
+   <div><h2><img src="images/phone call.png" width="50px" height="50px"/>   07034621309</h2></div> 
+   <div><h2><img src="images/email1.png"  width="50px" height="50px" /> rotimiabiodun70@gmail.com</h2></div>
+   </div>
+
+
+
+      <div class="navigation">
+        <div class="nav-link">  
+            <a href="home2.html">
+            <h3 style="font-size: 14pt;"> Home </h3>
+            </a>
+        </div>
+           <div class="nav-link"> 
+                 <a href="stores.html">
+                  <h3 style="font-size: 14pt;"> Stores </h3>
+                    </a>
+        </div>
+
+
+        <div class="nav-link"> 
+                 <a href="about.html">
+                <h3 style="font-size: 14pt;"> About Us </h3>
+               </a>  
+        </div>
+
+        <div class="nav-link"> 
+                    <a href="contactus.html">
+                 <h3 style="font-size: 14pt;"> Contact Us </h3>
+                 </a>
+         </div>
+
+         <div class="nav-link"> 
+                <a href="order.html">
+                <h3 style="font-size: 14pt;"> Order </h3>
+                 </a>
+         </div>
+       
+        </div>
+	
+
+
+
+    <!--order form-->
+
+    <div class="content-table">
+        <h1 align="center">customers detail</h1>
+        <form name="booking" action="" method="post">
+            <table width="40%"  class="table1"  align="center" border="0" >
+                <tr >
+                    <td> <label for="sname"> Full Name </label> </td>
+                    <td > <input type="text" id="sname" name="sname" size="60"  placeholder="PLEASE TYPE YOUR FULLNAME" required > </td>
+                </tr>
+                <tr>
+                    <td> <label> Email Address </label> </td>
+                    <td> <input type="text" id="email" size="60" name="email"  required> </td>
+                </tr>
+                <tr>
+                    <td> <label> Phone Number </label> </td>
+                    <td> <input type="text" id="phone" name="phone" size="60" required> </td>
+                </tr>
+                <tr>
+                    <td> <label> Feedback Type </label> </td>
+                    <td> 
+                        <input type="checkbox" id="feedback" name="feedback" value="SMS" /> SMS 
+                        <input type="checkbox" id="feedback" name="feedback" value="Email" /> Email 
+                    </td>					
+                </tr>	
+                <tr> 
+                    <td><label for="delivery mode">Delivery Mode</label></td>
+                </tr>
+                <tr>
+                    <td></td>
+                   <td> <input type="radio" id="Dmode" name="Dmode" value="picupstation" /> PICKUPSTATION <select name="state" >
+                    <option value="please select" selected>Please select</option>
+                    <option value="IKORODU">IKORODU GARAGE BUSTOP</option>
+                    <option value="ABEOKUTA"> ABEOKUTA KUTO </option>
+                    <option value="OGIJO"> OGIJO BUSTOP  </option>
+                    <option value="SHAGAMU"> ISALE-OKO BUSTOP  </option>
+                </select> </td>
+                </tr>
+                <tr>
+                    <td></td>
+                   <td> <input type="radio" id="Dmode" name="Dmode" value="picupstation" style="margin-left:-200px;" /> HOME DELIVERY</td>
+                </tr>
+                <tr>
+                    <td></td>
+                   <td> <input type="radio" id="Dmode" name="Dmode" value="picupstation"style="margin-left:-200px;"  /> FACTORY PICKUP</td>
+                </tr>
+                <tr>
+                    <td> <label> State </label> </td>
+                    <td> 						
+                        <select name="state" class="select1" >
+                            <option value="Lagos"> Lagos </option>
+                            <option value="Kano"> Ogun </option>
+                            <option value="Rivers"> oTHERS  </option>
+                        </select> 
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> <label>Your Address </label> </td>
+						<td><textarea rows="5" cols="40"> </textarea></td>
+				 </tr>
+                 <tr>
+                    <td> <label> Your nearest bustop</label> </td>
+						<td><textarea rows="5" cols="40"> </textarea></td>
+				 </tr>
+
+               <tr>
+                    <td width="30%"> <label>TOWN/CITY </label> </td>
+                    <td > <input type="text" id="sname" name="sname" size="20" style="margin-left: -100px;"> </td>
+                </tr>
+
+           </table>	
+    
+      <h1 align="center">Product details</h1>
+        <table border="1" width="40%" align="center" class="table2">
+            
+       <tr>
+            <th>PRODUCT</th>
+            <th>COLOR</th>
+           <th>ID NO</th>
+           <th>QUANTITY</th>
+           <th>UNIT PRICE(&#8358;)</th>
+          <th>SUBTOTAL</th>
+      </tr>
+      <tr>
+         <td>EMBROSS Card</td>
+         <td><input type="color" name="pcolor" value="red"> </td>
+         <td>G73</td>
+         <td><input type="text" id="qty_1"  size="2" value="0" onkeyup="sum()"> </td>
+         <td> <input id="price_1" type="text" size="2" value="7000" readonly onkeyup="sum()" /></td>
+         <td><input type="text" id="stotal_1" size="3"  value="0"/></td>
+      </tr>
+
+      <tr>
+         <td>VElVET CARD </td>
+         <td><input type="color" name="pcolor" value="red"> </td>
+         <td>G71</td>
+         <td><input type="text" id="qty_2"  size="2" value="0" onkeyup="sum2()"> </td>
+         <td> <input id="price_2" type="text" size="2" value="5000" readonly onkeyup="sum2()" /></td>
+         <td><input type="text" id="stotal_2" size="3" value="0"/></td>
+
+      </tr>
+
+       <tr>
+            <td>MANILLA CARD</td>
+            <td><input type="color" name="pcolor" value="red"> </td>
+            <td>G73</td>
+            <td><input type="text" id="qty_3"  size="2" value="0" onkeyup="sum3()"> </td>
+            <td> <input id="price_3" type="text" size="2" value="3500" readonly onkeyup="sum3()" /></td>
+            <td><input type="text" id="stotal_3" size="3" value="0"/></td>
+
+        <tr>
+         <td>GLOSSY CARDS</td>
+         <td><input type="color" name="pcolor"> </td>
+             <td>G70</td>
+             <td><input type="text" id="qty_4"  size="2" value="0" onkeyup="sum4()"> </td>
+         <td> <input id="price_4" type="text" size="2" value="3000" readonly onkeyup="sum4()" /></td>
+         <td><input type="text" id="stotal_4" size="3" value="0"/></td>
+       </tr>
+      <tr>
+        <td colspan="4">TOTAL <span style="margin: 5px;">(click the Total button)</span></td>
+        <td><input type="button" value="Total" onclick="sumall()"></td>
+        <td><input type="text" id="sum_all" size="3">
+        </td>
+     </tr>
+     <tr>
+        <td><div input type="submit" id="submit" value="submit">submit</td>
+     </tr>
+    </table>
+
+</form>
+
+    <div class="order"><a href="confirm.html"><button>ORDER</button></a></div>
+
+    
+  
+
+    
+		<!--footer-->
+
+		<div class="footer" style="color: #fff;">
+                        
+      <h2 style="text-align: center;"> FOLLOW US ON</h2>
+      <div align="center">
+         <img src="images/facebook.png" width="50px" height="50px" />
+         <img src="images/instagram.png"  width="50px" height="50px" />
+         <img src="images/twitter.png" width="50px" height="50px"  />
+      </div>
+      
+      
+        <h3 style="text-align: center;">3,Bayo olateju street, Ogijo,Ogun State Nigeria</h3>
+         
+      
+         <h3 style="text-align: center;">Phone:07034621309,08063728863</h3>
+    
+    <h2  align="center"> <a href="home.html"> Home </a>|  <a href="about.html">About Us </a>   |  <a href="contact us.html">Contact Us</a> </h2>
+    
+    
+    
+      <div class="box1" align="center">
+        <h4 align="center">Email alert</h4>
+        <input type="email" id="email" name="email" size="50" placeholder="Email" style="height:30px"> <button style="width:5rem; height:30px; text-align: center;">SEND</button>
+      
+      </div>
+    <div></div>
+         <h2 style="font-size: 20pt; text-align: center;height: 10px;"> ABBEY GIFTS &copy; 2023. </h2>
+    </div>
+
+<script>
+    function sum(){
+ let quantity=document.getElementById("qty_1").value;
+ let price=document.getElementById("price_1").value;
+ let subtotal= parseInt(quantity) * parseInt(price);
+
+ if(!isNaN(subtotal)){
+    document.getElementById("stotal_1").value=subtotal;
+ }
+};
+
+function sum2()
+{
+ let quantity=document.getElementById("qty_2").value;
+ let price=document.getElementById("price_2").value;
+ let subtotal= parseInt(quantity) * parseInt(price);
+
+ if(!isNaN(subtotal)){
+    document.getElementById("stotal_2").value=subtotal;
+ }
+};
+
+function sum3()
+{
+ let quantity=document.getElementById("qty_3").value;
+ let price=document.getElementById("price_3").value;
+ let subtotal= parseInt(quantity) * parseInt(price);
+
+ if(!isNaN(subtotal)){
+    document.getElementById("stotal_3").value=subtotal;
+ }
+};
+
+function sum4()
+{
+ let quantity=document.getElementById("qty_4").value;
+ let price=document.getElementById("price_4").value;
+ let subtotal= parseInt(quantity) * parseInt(price);
+
+ if(!isNaN(subtotal)){
+    document.getElementById("stotal_4").value=subtotal;
+ }
+};
+ function sumall(){
+
+let a=document.getElementById("stotal_1").value;
+let b=document.getElementById("stotal_2").value;
+let c=document.getElementById("stotal_3").value;
+let d=document.getElementById("stotal_4").value;
+
+let sumall=parseInt(a)+parseInt(b) + parseInt(c) + parseInt(d);
+
+document.getElementById("sum_all").value= sumall;
+
+
+
+
+ };
+
+
+ 
+
+
+
+
+
+
+
+</script>
+
+    </body>
+     </html>
+
+
+    
